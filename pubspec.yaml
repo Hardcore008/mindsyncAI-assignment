@@ -1,0 +1,66 @@
+name: mindsync_ai
+description: Professional cognitive analysis mobile health application with Apple-style UI
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  bloc: ^8.1.4
+  provider: ^6.1.2
+  
+  # HTTP & Networking
+  dio: ^5.3.2
+  http: ^1.1.0
+  
+  # Sensors & Hardware
+  camera: ^0.10.6
+  sensors_plus: ^4.0.2
+  permission_handler: ^11.4.0
+  
+  # Audio Recording
+  record: ^5.1.1
+  path_provider: ^2.1.1
+  
+  # Data Storage
+  shared_preferences: ^2.2.2
+  
+  # Charts & Visualization
+  fl_chart: ^0.68.0
+  syncfusion_flutter_charts: ^24.2.9
+  
+  # Utility packages
+  uuid: ^4.5.1
+  flutter_animate: ^4.5.0
+  
+  # UI & Animations
+  glassmorphism: ^3.0.0
+  shimmer: ^3.0.0
+  lottie: ^2.7.0
+  
+  # Utilities
+  cupertino_icons: ^1.0.2
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/
+    - assets/data/
+    - assets/images/
